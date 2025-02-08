@@ -1,0 +1,34 @@
+# OCR Application 📄🔍  
+This OCR (Optical Character Recognition) application extracts text from images and scanned documents, supporting multiple formats like PDFs, images, and ZIP files. It utilizes **Tesseract OCR** for text extraction and includes a document classification module to categorize documents like birth certificates, resumes, and Aadhar cards.  
+## 🚀 Features  
+✔️ **Multi-format Support** – Processes PDFs, images (JPG, PNG), and ZIP archives  
+✔️ **Handwritten & Printed Text Extraction** – Uses Tesseract OCR for accurate text retrieval  
+✔️ **Automated Document Classification** – Identifies document types based on extracted text  
+✔️ **Batch Processing** – Handles multiple documents in a single run  
+✔️ **Exportable Results** – Saves extracted text and classifications in a CSV file  
+
+## 🛠️ Technologies Used  
+- **Python** (Core scripting)  
+- **Tesseract OCR** (Text extraction)  
+- **pdf2image** (PDF to image conversion)  
+- **Pandas** (Data handling & CSV export)  
+- **Google Colab** (For execution & file uploads)  
+
+## 📂 How It Works  
+1️⃣ Upload PDFs, images, or ZIP files containing documents  
+2️⃣ Extract text using **Tesseract OCR**  
+3️⃣ Classify documents based on key terms  
+4️⃣ Save & download results in CSV format  
+
+## 📥 Installation & Usage  
+Clone the repository:  
+```bash
+git clone https://github.com/KapilAnandh/OCR_Application.git
+cd OCR_Application
+```
+Run the script in **Google Colab** or locally with the required dependencies.  
+
+## 🎯 Applications  
+✅ Automated document digitization  
+✅ Legal and administrative record management  
+✅ Data extraction for analysis  
